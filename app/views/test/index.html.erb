@@ -4,6 +4,7 @@
   oXHR.open("GET", "/", true);
   //oXHR.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
   oXHR.setRequestHeader("X-Requested-With", "XMLHttpRequest");
+  oXHR.setRequestHeader("Accept", "*/*");
   oXHR.onreadystatechange = function (oEvent) {  
     if (oXHR.readyState === 4) {  
       if (oXHR.status === 200) {
