@@ -1,0 +1,4 @@
+This demonstrates capybara-webkit's bug with some AJAX requests. Run:
+
+    bundle install
+    rspec spec
